@@ -11,7 +11,7 @@ npm start
 ## GET API
 
 ```
-url: http://127.0.0.1:3000/api/wallet?address=http://127.0.0.1:3000/api/wallet?address={address}
+url: http://127.0.0.1:5002/api/wallet?address={address}
 
 response: bool
 ```
@@ -19,7 +19,7 @@ response: bool
 ## POST API
 
 ```
-url: http://127.0.0.1:3000/api/wallet?address=http://127.0.0.1:3000/api/wallet
+url: http://127.0.0.1:5002/api/wallet
 
 body: address: "address"
 ```
